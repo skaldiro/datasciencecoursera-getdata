@@ -50,13 +50,13 @@ Output Variables:
 
 There are 3 sets of variables in the output dataset:
 
-1. Activity Labels: Character Vector that contains the type of activity the subject was doing at the time of the measurement
+Activity Labels: Character Vector that contains the type of activity the subject was doing at the time of the measurement
 - "ActivityLabel"
 
-2. Subject: The subject in the experiment
+Subject: The subject in the experiment
 - "Subject"
 
-3. Average Measurements: Various metrics during the activity for a given subject (refer to "features_info.txt" for details)
+Average Measurements: Various metrics during the activity for a given subject (refer to "features_info.txt" for details)
 - "tBodyAcc-mean()-X"
 - "tBodyAcc-mean()-Y"              
 - "tBodyAcc-mean()-Z" 
