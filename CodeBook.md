@@ -1,8 +1,11 @@
 # Code Book
 
 Owner: Selman Kaldiroglu
+
 Course: Coursera: Getting and Cleaning Data 
+
 Objective: See README.md file
+
 Function: run_analysis.R
 
 # Data
