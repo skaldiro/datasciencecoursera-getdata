@@ -14,4 +14,5 @@ The objective of the project is to combine all knowledge learned throughout the 
 Code can be ran after sourcing with the following code:
 
 source("run_anaylsis.R")
+
 run_analysis()
