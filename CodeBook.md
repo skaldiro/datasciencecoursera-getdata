@@ -10,11 +10,14 @@ Function: run_analysis.R
 
 # Data
 Data Source: UCI HAR Dataset
+
 Data Output: project_output.txt
+
 Description: The output of the dataset is a tidy dataset containing the average measurements of all subject-activity combinations from tested and trained populations based on an experiment conducted by Samsung. Please refer to the README.txt file in the UCI HAR Dataset directory for more details. 
 
 # Variables
 Input Variables (taken from "features_info.txt"): 
+
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
@@ -44,6 +47,7 @@ fBodyGyroJerkMag
 
 
 Output Variables: 
+
 There are 3 sets of variables in the output dataset:
 
 1. Activity Labels: Character Vector that contains the type of activity the subject was doing at the time of the measurement
@@ -134,11 +138,6 @@ There are 3 sets of variables in the output dataset:
 - "fBodyBodyGyroJerkMag-std()"     
 
 # Code
+
 The function has comments for each step in the code. Please refer to the comments in the code for descriptions.
 
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r}
-summary(cars)
-```
